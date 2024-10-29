@@ -85,8 +85,8 @@ class CurAcct extends Account {
 
 public class Bank {
     public static void main(String[] args) {
-        // Create Savings Account
-        SavAcct savingsAccount = new SavAcct("John Doe", 101, 5000, 4);
+        
+        SavAcct savingsAccount = new SavAcct("Harsha", 121, 6000, 5);
         savingsAccount.deposit(1000);
         savingsAccount.computeInterest();
         savingsAccount.displayBalance();
@@ -95,7 +95,7 @@ public class Bank {
 
         System.out.println();
 
-        CurAcct currentAccount = new CurAcct("Jane Doe", 102, 3000, 1000, 50);
+        CurAcct currentAccount = new CurAcct("Srushti", 122, 5000, 7000, 60);
         currentAccount.deposit(500);
         currentAccount.displayBalance();
         currentAccount.withdraw(2500);  
